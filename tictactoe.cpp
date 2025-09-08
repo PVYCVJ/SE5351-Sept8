@@ -47,6 +47,7 @@ int main(){
 			else 
 			   game[i][j] = player2;
 			if (isWin(game)){
+				cout << (turn==false ? "Player 1 " : "Player 2 ");
 				cout << "Win!" << endl;
 				break; // need to terminate the problem
 			}
